@@ -1,0 +1,15 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+    mainContainer: {
+      flex: 1,
+      backgroundColor: 'black',
+      alignItems: 'center',
+      justifyContent: 'center',
+      width: 332,
+      borderRadius: 50,
+      marginTop: 40
+    },
+  });
+
+export default styles;

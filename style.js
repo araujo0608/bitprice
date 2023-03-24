@@ -1,11 +1,11 @@
-import { StyleSheet } from "react-native";
+import { Platform, StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#fff',
+      backgroundColor: '#29272C',
       alignItems: 'center',
-      justifyContent: 'center',
+      paddingTop: Platform.OS === "android" ? 20 : 0 // if Android apply 40 paddingTop
     },
   });
 

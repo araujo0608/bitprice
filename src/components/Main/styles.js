@@ -5,7 +5,6 @@ const styles = StyleSheet.create({
       flex: 1,
       backgroundColor: 'black',
       alignItems: 'center',
-      justifyContent: 'center',
       width: 332,
       borderRadius: 50,
       marginTop: 40

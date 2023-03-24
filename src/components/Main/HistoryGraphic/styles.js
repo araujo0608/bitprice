@@ -5,7 +5,8 @@ const styles = StyleSheet.create({
         backgroundColor: 'white',
         height: 131,
         width: '100%',
-        marginTop: 30
+        marginTop: 30,
+        borderRadius: 10
     },
 
     test:{

@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     containerText:{
-        marginTop: 60
+        marginTop: 60,
     },
     mainText:{
         fontSize: 32,

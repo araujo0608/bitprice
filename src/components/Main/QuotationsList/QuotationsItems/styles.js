@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
 
     txtPrice:{
         color: '#ffffff',
-        fontSize: 16,
+        fontSize: 18,
         fontWeight: 'bold'
     }
 });

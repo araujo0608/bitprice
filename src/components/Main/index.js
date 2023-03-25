@@ -4,6 +4,7 @@ import styles from './styles';
 import CurrentPrice from './CurrentPrice';
 import HistoryGraphic from './HistoryGraphic';
 import QuotationList from './QuotationsList';
+import QuotationItems from './QuotationsList/QuotationsItems';
 
 const Main = () => {
     return(
@@ -11,6 +12,7 @@ const Main = () => {
         <CurrentPrice/>
         <HistoryGraphic />
         <QuotationList />
+        <QuotationItems />
       </SafeAreaView>
     )
 }

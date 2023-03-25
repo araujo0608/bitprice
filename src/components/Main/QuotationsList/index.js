@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { ScrollView, View } from 'react-native';
+import { View } from 'react-native';
 import styles from './styles';
 import ButtonFilter from './ButtonFilters';
 
@@ -14,8 +14,6 @@ const QuotationList = () => {
                 <ButtonFilter text={"6M"}/>
                 <ButtonFilter text={"12M"}/>
             </View>
-            <ScrollView>
-            </ScrollView>
         </Fragment>
     )
 }

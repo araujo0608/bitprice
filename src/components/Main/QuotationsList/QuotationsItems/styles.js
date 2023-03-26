@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+import { RFPercentage } from 'react-native-responsive-fontsize';
 
 const styles = StyleSheet.create({
     mainContainer:{
@@ -31,7 +32,7 @@ const styles = StyleSheet.create({
     },
 
     txtDate:{
-        fontSize: 16,
+        fontSize: RFPercentage(2.1),
         paddingLeft: 5,
         color: '#ffffff',
         fontWeight: 'bold'
@@ -44,7 +45,7 @@ const styles = StyleSheet.create({
 
     txtPrice:{
         color: '#ffffff',
-        fontSize: 18,
+        fontSize: RFPercentage(2.5),
         fontWeight: 'bold'
     }
 });

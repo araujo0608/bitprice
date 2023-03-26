@@ -7,8 +7,13 @@ const styles = StyleSheet.create({
       alignItems: 'center',
       width: 332,
       borderRadius: 50,
-      marginTop: 40
+      marginTop: 40,
     },
+    mainLogo:{
+      height: 80,
+      width: 80,
+      marginTop: -40
+    }
   });
 
 export default styles;

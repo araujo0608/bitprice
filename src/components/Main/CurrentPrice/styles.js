@@ -1,16 +1,17 @@
 import { StyleSheet } from "react-native";
+import { RFPercentage } from "react-native-responsive-fontsize";
 
 const styles = StyleSheet.create({
     containerText:{
-        marginTop: 60,
+        marginTop: 10,
     },
     mainText:{
-        fontSize: 32,
+        fontSize: RFPercentage(4.3),
         color: 'white',
         fontWeight: 'bold'
     },
     subText:{
-        fontSize: 12,
+        fontSize: RFPercentage(1.6),
         color: 'white',
         fontStyle: 'italic',
         left: 25

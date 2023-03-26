@@ -1,4 +1,4 @@
-import { SafeAreaView, StatusBar, Image } from 'react-native';
+import { SafeAreaView, StatusBar } from 'react-native';
 
 import styles from './style'; // style App.js
 import Main from './src/components/Main';
@@ -14,7 +14,7 @@ export default function App() {
       />
 
       <HeaderTitle />
-      <Image source={require("./assets/btc.png")} style={styles.mainLogo}/>
+
       <Main />
 
     </SafeAreaView>
